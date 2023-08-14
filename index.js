@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const reloadButton = document.getElementById("reloadButton");
     reloadButton.addEventListener("click", function() {
       calculate(); 
-    //   location.reload(); // Reload the page
+      //location.reload(); // Reload the page
+      document.querySelector("button").innerHTML = "Roll Again";  
     });
   });
